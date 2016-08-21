@@ -1,11 +1,63 @@
 <resources>
 
-    <!-- Base application theme. -->
+
+    <!-- Origin Theme -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <!--<item name="android:layout_weight">1</item>-->
+        <item name="android:textSize">24sp</item>
+
+    </style>
+
+    <style name="description">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+    <style name="contacts">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+    <style name="icons">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_margin">12dp</item>
+        <!--<item name="android:layout_weight">1</item>-->
+        <item name="android:textSize">15sp</item>
+        <item name="android:scaleType">fitCenter</item>
+
+    </style>
+
+    <style name="logo">
+
+
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
 
 </resources>

@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Origin</string>
+    <string name="business_description">Your local dedicated gaming supplies store.
+        Your one stop shop for your custom gaming PC parts. Call now, build your PC today!
+</string>
+    <string name="business_name">Tribe9 LLC</string>
+    <string name="tel_number_1">000 123 444 555</string>
+    <string name="tel_number_2">555 555 444 555</string>
+    <string name="business_address">304th Av, STE 999, CA, Planet Global</string>
+    <string name="business_email">sales@origin.tribe9.com</string>
+    <string name="tribe9_logo">Tribe9 Logo</string>
+
 </resources>
