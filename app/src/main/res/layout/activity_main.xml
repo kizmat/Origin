@@ -22,11 +22,16 @@
         android:text="@string/business_name"
         android:textSize="24sp" />
 
-    <TextView
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-        style="@style/description"
-        android:text="@string/business_description" />
+        <TextView
 
+            style="@style/description"
+            android:text="@string/business_description" />
+    </ScrollView>
     <!-- Phone 1 -->
     <LinearLayout
         android:layout_width="match_parent"
